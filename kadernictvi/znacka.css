@@ -1,0 +1,10 @@
+/* Značka: Kadeřnictví Vzorek (fiktivní). Světle fialová, švestkový akcent, moderní bezpatkové písmo (Inter Tight, OFL). */
+@font-face { font-family: "Inter Tight"; src: url("../fonty/InterTight.ttf") format("truetype"); font-weight: 100 900; font-display: swap; }
+:root { --pozadi: #f7f0f5; --text: #2b1b2a; --akcent: #9c2f6b; --linka: #e3cfdc; }
+body { font-family: "Inter Tight", Arial, sans-serif; color: var(--text); background: var(--pozadi); }
+h1, h2 { font-family: "Inter Tight", Arial, sans-serif; font-weight: 700; color: var(--akcent); }
+header { border-bottom: 3px solid var(--akcent); }
+a { color: var(--akcent); }
+.tlacitko { background: var(--akcent); color: #fff; border-radius: 999px; }
+.kontakt { border: 1px solid var(--linka); border-top: 4px solid var(--akcent); }
+footer { color: var(--text); border-top: 1px solid var(--linka); }
