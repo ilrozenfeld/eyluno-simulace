@@ -1,11 +1,11 @@
 /* Značka: Instalatér Modelový (fiktivní). Chladná světle modrá, tmavě modrý text, oranžový akcent, úzké bezpatkové nadpisy (Barlow Condensed, OFL). */
 @font-face { font-family: "Barlow Condensed"; src: url("../fonty/BarlowCondensed-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
 :root { --pozadi: #eef4f8; --text: #10263a; --akcent: #c2410c; --linka: #c9d8e4; }
-body { font-family: Arial, Helvetica, sans-serif; color: var(--text); background: var(--pozadi); }
-h1, h2 { font-family: "Barlow Condensed", Arial, sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: var(--text); }
+body { font-family: Arial, Helvetica, sans-serif; color: #10263a; background: #eef4f8; }
+h1, h2 { font-family: "Barlow Condensed", Arial, sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: #10263a; }
 h1 { font-size: 40px; }
-header { border-bottom: 4px solid var(--akcent); }
-a { color: var(--akcent); }
-.tlacitko { background: var(--akcent); color: #fff; border-radius: 4px; }
-.kontakt { border: 1px solid var(--linka); border-left: 6px solid var(--akcent); border-radius: 4px; }
-footer { color: var(--text); border-top: 1px solid var(--linka); }
+header { border-bottom: 4px solid #c2410c; }
+a { color: #c2410c; }
+.tlacitko { background: #c2410c; color: #fff; border-radius: 4px; }
+.kontakt { border: 1px solid #c9d8e4; border-left: 6px solid #c2410c; border-radius: 4px; }
+footer { color: #10263a; border-top: 1px solid #c9d8e4; }
