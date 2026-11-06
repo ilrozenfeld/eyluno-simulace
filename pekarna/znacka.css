@@ -1,9 +1,9 @@
 /* Značka: Pekárna Zlatý klas (fiktivní). Teplá krémová, hnědý text, medově hnědý akcent, patkové písmo. */
 :root { --pozadi: #fbf3e4; --text: #3b2a1a; --akcent: #a85d17; --linka: #e6d3b3; }
 body { font-family: Georgia, "Times New Roman", serif; color: #3b2a1a; background: #fbf3e4; }
-h1, h2 { font-family: Georgia, "Times New Roman", serif; color: #a85d17; }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; color: #3b2a1a; }
 header { border-bottom: 3px solid #a85d17; }
-a { color: #a85d17; }
+a { color: #3b2a1a; text-decoration-color: #a85d17; text-decoration-thickness: 2px; }
 .tlacitko { background: #a85d17; color: #fffaf0; border-radius: 6px; }
 .kontakt { border: 1px solid #e6d3b3; border-left: 4px solid #a85d17; border-radius: 6px; }
 footer { color: #3b2a1a; border-top: 1px solid #e6d3b3; }

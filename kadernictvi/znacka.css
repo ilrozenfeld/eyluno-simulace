@@ -2,9 +2,9 @@
 @font-face { font-family: "Inter Tight"; src: url("../fonty/InterTight.ttf") format("truetype"); font-weight: 100 900; font-display: swap; }
 :root { --pozadi: #f7f0f5; --text: #2b1b2a; --akcent: #9c2f6b; --linka: #e3cfdc; }
 body { font-family: "Inter Tight", Arial, sans-serif; color: #2b1b2a; background: #f7f0f5; }
-h1, h2 { font-family: "Inter Tight", Arial, sans-serif; font-weight: 700; color: #9c2f6b; }
+h1, h2 { font-family: "Inter Tight", Arial, sans-serif; font-weight: 700; color: #2b1b2a; }
 header { border-bottom: 3px solid #9c2f6b; }
-a { color: #9c2f6b; }
+a { color: #2b1b2a; text-decoration-color: #9c2f6b; text-decoration-thickness: 2px; }
 .tlacitko { background: #9c2f6b; color: #fff; border-radius: 999px; }
 .kontakt { border: 1px solid #e3cfdc; border-top: 4px solid #9c2f6b; }
 footer { color: #2b1b2a; border-top: 1px solid #e3cfdc; }
